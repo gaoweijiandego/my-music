@@ -182,7 +182,7 @@ export default function Home({ singers, data }) {
               });
             }
           }}
-          autoplay={false}
+          autoplay={true}
           navigation={{ placement: "inside", type: "dots" }}
         >
           {data.map((item, index) => (
