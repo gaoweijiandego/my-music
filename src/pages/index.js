@@ -182,7 +182,7 @@ export default function Home({ singers, data }) {
               });
             }
           }}
-          autoplay={true}
+          autoplay={false}
           navigation={{ placement: "inside", type: "dots" }}
         >
           {data.map((item, index) => (
@@ -196,6 +196,7 @@ export default function Home({ singers, data }) {
           ))}
         </Swiper>
         <div className={styles.download}>
+          <a className={styles.downloadBackground}></a>
           <p className={styles.downloadText}>
             PC 安卓 iPhone WP iPad Mac 六大客户端
           </p>

@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
     } else {
       const windowHeight = window.innerHeight;
       const mouseY = window.event.clientY;
-      setIsPlayerVisible(mouseY > windowHeight - 120);
+      setIsPlayerVisible(mouseY > windowHeight - 140);
     }
   };
   const {
@@ -100,7 +100,7 @@ const Layout = ({ children }) => {
       if (!isPlayerBoxVisible) {
         const windowHeight = window.innerHeight;
         const mouseY = event.clientY;
-        setIsPlayerVisible(mouseY > windowHeight - 120);
+        setIsPlayerVisible(mouseY > windowHeight - 140);
       }
     }, 500);
 

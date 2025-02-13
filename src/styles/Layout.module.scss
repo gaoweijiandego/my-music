@@ -127,12 +127,13 @@
       justify-content: center;
       align-items: center;
       .headerBottomItem {
-        margin-left: 240px;
-        width: 50%;
+        width: 1100px;
         display: flex;
         flex-direction: row;
-        gap: 34px;
+        gap: 32px;
         align-items: center;
+        justify-content: center;
+        margin-right:174px;
         :global(p) {
           font-size: 12px;
           color: #fff;
@@ -333,7 +334,7 @@
     z-index: 19999;
     pointer-events: auto;
     bottom: -47px;
-    transition: bottom 0.3s ease-in-out;
+    transition: bottom 0.2s ease-in-out;
 
     &.playerVisible {
       bottom: 0;
